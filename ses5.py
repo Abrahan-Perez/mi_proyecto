@@ -5,7 +5,7 @@ def main():
     
     #Ejemplo de while
     st.subheader('Ejemplo de while')
-    n = st.number_input('Ingresa un número para contar hasta 5: '), min_value=0, max_value=5,
+    n = st.number_input('Ingresa un número para contar hasta 5:', min_value=0, max_value=5)
     contador = 0
     resultado_while = ""
     
